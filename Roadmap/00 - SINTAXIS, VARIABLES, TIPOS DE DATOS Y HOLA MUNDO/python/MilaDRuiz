@@ -1,0 +1,50 @@
+# https://www.python.org/
+
+# Comentario en una línea
+
+"""
+Esto también es
+un comentario 
+en varias líneas
+"""
+
+'''
+Esto también es 
+un comentario
+en varias líneas
+'''
+
+#Crear una variable y una constante 
+
+mi_variable = "Mi variable"
+mi_variable = "Nuevo valor de mi variable"
+
+""" 
+Una constante es una variable, pero que no varía. 
+Python no tiene constantes.
+
+"""
+
+MI_CONSTANTE = "Mi constante" # por convención
+MI_CONSTANTE = "Aunque haya puesto en mayúsculas, deja modificar el valor"
+
+
+# Datos primitivos
+
+mi_int =  1 # mi dato entero
+mi_float = 1.5 # dato decimal
+mi_bool = True # dato booleano
+mi_bool = False # Verdadero o falso
+mi_string = "Es una cadena de texto"
+mi_otro_string = 'Es otra cadena de texto con comillas simples'
+
+#Imprimir texto por consola
+
+print("¡Hola, Python!")
+
+# Plus: obtener el tipo de dato que estamos representando
+
+print(type(mi_int))
+print(type(mi_float))
+print(type(mi_bool))
+print(type(mi_string))
